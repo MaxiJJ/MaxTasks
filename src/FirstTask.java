@@ -6,16 +6,14 @@ public class FirstTask {
         int radius = sc.nextInt();
         if (radius < 0) {
             System.out.println("Radius can't be negative");
-        }
-        else {
-            double pi = 3.14;
-            double pRound = 2 * radius * pi;
-            double sRound = pi * Math.pow(radius, 2);
-            System.out.println(pRound);
-            System.out.println(sRound);
-        }
-        if (radius == 0) {
+        } else if (radius == 0) {
             System.out.println("It's point");
+        } else {
+                double pi = 3.14;
+                double pRound = 2 * radius * pi;
+                double sRound = pi * Math.pow(radius, 2);
+                System.out.println(pRound);
+                System.out.println(sRound);
         }
     }
 }
