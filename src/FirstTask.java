@@ -9,11 +9,11 @@ public class FirstTask {
         } else if (radius == 0) {
             System.out.println("It's point");
         } else {
-                double pi = 3.14;
-                double pRound = 2 * radius * pi;
-                double sRound = pi * Math.pow(radius, 2);
-                System.out.println(pRound);
-                System.out.println(sRound);
+            double pi = 3.14;
+            double pRound = 2 * radius * pi;
+            double sRound = pi * Math.pow(radius, 2);
+            System.out.println(pRound);
+            System.out.println(sRound);
         }
     }
 }
